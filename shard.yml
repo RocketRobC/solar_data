@@ -1,0 +1,31 @@
+name: solar_data_lucky
+version: 0.1.0
+
+authors:
+  - RocketRobC <rob@robcornish.net>
+
+targets:
+  solar_data_lucky:
+    main: src/solar_data_lucky.cr
+
+crystal: 1.0.0
+
+dependencies:
+  lucky:
+    github: luckyframework/lucky
+    version: ~> 0.27.0
+  authentic:
+    github: luckyframework/authentic
+    version: ~> 0.7.2
+  carbon:
+    github: luckyframework/carbon
+    version: ~> 0.1.2
+  dotenv:
+    github: gdotdesign/cr-dotenv
+    version: ~> 0.7.0
+  lucky_flow:
+    github: luckyframework/lucky_flow
+    version: ~> 0.7.2
+  jwt:
+    github: crystal-community/jwt
+    version: ~> 1.5.0
